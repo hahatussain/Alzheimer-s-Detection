@@ -1,7 +1,7 @@
 This project was done as a part of ADDI's Alzheimer Detection Challenge.
 
 # Background
-Dementia manifests as a set of related symptoms, which usually surface when the brain is damaged by injury or disease.[4] The symptoms involve progressive impairments to memory, thinking, and behavior, which negatively impact a person's ability to function and carry out everyday activities. Aside from memory impairment and a disruption in thought patterns, the most common symptoms include emotional problems, difficulties with language, and decreased motivation.
+Dementia manifests as a set of related symptoms, which usually surface when the brain is damaged by injury or disease. The symptoms involve progressive impairments to memory, thinking, and behavior, which negatively impact a person's ability to function and carry out everyday activities. Aside from memory impairment and a disruption in thought patterns, the most common symptoms include emotional problems, difficulties with language, and decreased motivation.
 
 # CDT Test
 The Clock Drawing Test (CDT) is a simple test to detect signs of dementia. In this test the patient is asked to draw an analog clock with hands on the clock indicating ‘ten minutes past 11 o’clock.’ This single test may be sensitive to dementia because it involves many cognitive areas that can be affected by dementia, including executive function, visuospatial abilities, motor programming, attention, and concentration. A qualified doctor then examines the drawing for the signs of dementia.
