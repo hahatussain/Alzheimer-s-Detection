@@ -1,3 +1,5 @@
+This project was done as a part of ADDI's Alzheimer Detection Challenge.
+
 # Background
 Dementia manifests as a set of related symptoms, which usually surface when the brain is damaged by injury or disease.[4] The symptoms involve progressive impairments to memory, thinking, and behavior, which negatively impact a person's ability to function and carry out everyday activities. Aside from memory impairment and a disruption in thought patterns, the most common symptoms include emotional problems, difficulties with language, and decreased motivation.
 
@@ -13,9 +15,15 @@ The challenge is to use the features extracted from the Clock Drawing Test to bu
 2)    Post-Alzheimer’s (Detection)
 3)    Normal (Not an Alzheimer’s patient)
 
+# Dataset
+Private dataset provided by Aridhia Workbench.
+
 # Solution
 ### Approach
-Catboost(A gradient boosted decision tree algorithm) was used to classify the data points in the given dataset into the required 3 categories
+Random Decision Forests were used to classify the data points in the given dataset into the required 3 categories.
 
-### What are Gradient Boosted Decision Trees?
-Gradient boosting is a machine learning technique for regression, classification and other tasks, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. When a decision tree is the weak learner, the resulting algorithm is called gradient boosted trees, which usually outperforms random forest. It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.
+### What are Random Decision Forests?
+Random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the mean or average prediction of the individual trees is returned. Random forests generally outperform decision trees, but their accuracy is lower than gradient boosted trees.
+
+# Result
+The model was able to achieve a relatively low log loss of 0.71. 
